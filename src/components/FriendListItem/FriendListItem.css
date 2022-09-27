@@ -1,0 +1,55 @@
+.status {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: red;
+  background-color: rgba(174, 56, 6, 0.526);
+  margin-right: 25px;
+  text-align: center;
+}
+.statusOn {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: green;
+  background-color: rgb(57, 174, 6);
+  margin-right: 25px;
+  text-align: center;
+}
+.friend-list {
+  display: flex;
+  flex-direction: column;
+}
+.friend-avatar {
+  margin-right: 25px;
+}
+
+.friendItem {
+  display: flex;
+  width: 500px;
+  /* border: 2px solid red; */
+  box-shadow: 2px 2px 5px rgb(124, 123, 123);
+
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  margin-bottom: 35px;
+  background-color: rgb(231, 233, 235);
+
+  margin-left: auto;
+  margin-right: auto;
+}
+/* export default function FriendListItem({ avatar, name, isOnline, id }) {
+  return (
+    <li className="item">
+      <span class="status">{isOnline ? 'On-Line' : 'off-Line'}</span>
+      <img className="avatar" src={avatar} alt={name} width="48" />
+      <p className="name">{name}</p>
+    </li>
+  );
+} */

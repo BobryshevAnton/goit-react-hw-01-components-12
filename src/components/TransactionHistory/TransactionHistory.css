@@ -1,0 +1,46 @@
+.transaction-history {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: beige;
+  margin-top: 50px;
+}
+.transaction-historyHead {
+  background-color: rgb(46, 192, 192);
+  margin-left: auto;
+  margin-right: auto;
+}
+.transaction-historyList {
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.transaction-historyItem {
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 0.5px solid rgb(255, 255, 255);
+}
+.transList {
+  text-transform: uppercase;
+  color: rgb(105, 105, 105);
+  background-color: rgb(210, 207, 207);
+}
+.transaction-historyBody {
+  background-color: rgb(205, 232, 227);
+  margin-left: auto;
+  margin-right: auto;
+}
+.transaction-historyBodyList {
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(105, 105, 105);
+  text-transform: capitalize;
+  border: 0.5px solid rgb(255, 255, 255);
+}
